@@ -4,7 +4,7 @@ import Button from './Button'
 import Details from './Details'
 import Language from './Language'
 import DeveloperTools from './DeveloperTools'
-import TextLV from '../resources/text/text-lv.json';
+import TextTR from '../resources/text/text-tr.json';
 import TextEN from '../resources/text/text-en.json';
 import TextRU from '../resources/text/text-ru.json';
 
@@ -14,7 +14,7 @@ class GuiOverlay extends React.Component {
         super(props);
         this.state = {
             selectedDetail:null,
-            language:'lv'
+            language:'tr'
         };
         this.props.ssModel.guiSelectDetailCallback = (selectedPlanet) => {
             this.selectDetail(selectedPlanet);          
@@ -38,16 +38,16 @@ class GuiOverlay extends React.Component {
     }
     getAllText = () =>{
         let text = null;
-        if(this.state.language == 'lv')text = TextLV;
+        if(this.state.language == 'tr')text = TextTR;
         else if(this.state.language == 'en')text = TextEN;
         else if(this.state.language == 'ru')text = TextRU;
 
         if(text)return text.planets;
-        return TextLV.planets;
+        return TextTR.planets;
     }
     getPlanetText = () => {        
         let text = null;
-        if(this.state.language == 'lv')text = TextLV;
+        if(this.state.language == 'tr')text = TextTR;
         else if(this.state.language == 'en')text = TextEN;
         else if(this.state.language == 'ru')text = TextRU;
 
@@ -56,16 +56,16 @@ class GuiOverlay extends React.Component {
             && typeof text.planets[this.state.selectedDetail] != 'undefined'){
                 return text.planets[this.state.selectedDetail];
         }
-        return TextLV.planets.earth;
+        return TextTR.planets.earth;
     }
     getCommonText = () => {        
         let text = null;
-        if(this.state.language == 'lv')text = TextLV;
+        if(this.state.language == 'tr')text = TextTR;
         else if(this.state.language == 'en')text = TextEN;
         else if(this.state.language == 'ru')text = TextRU;
 
         if(text)return text.common;
-        return TextLV.common;
+        return TextTR.common;
     }    
     getPlanetTitle = (name) => {
         let planetText = this.getAllText();

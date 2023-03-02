@@ -37,7 +37,7 @@ void main(void) {
 
     vec3 colorInv = clamp((1. - color), vec3(0.), vec3(1.));
 
-    vec3 lv = (ldv * (colorInv * vec3(1.,1.,0.5) * 0.2));
+    vec3 tr = (ldv * (colorInv * vec3(1.,1.,0.5) * 0.2));
 
     color = color + (ldv * ((1. - color) * vec3(1.,1.,0.5) * 0.2));
 

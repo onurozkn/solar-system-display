@@ -2,9 +2,7 @@
 
 Web application for 1280x800 touchscreen device. Complementing Solar system showcase with animated representation of our solar system and short description of each planet.
 
-![Screenshot](https://raw.githubusercontent.com/houseofbits/solar-system-display/master/screenshot.png)
-
-[Check out YouTube video](https://www.youtube.com/watch?v=BSHr3dG0Ay8)
+![Screenshot](https://raw.githubusercontent.com/onurozkn/solar-system-display/blob/master/screenshot.png)
 
 How to set up and build this project:
 
@@ -13,7 +11,7 @@ How to set up and build this project:
 1) Install docker, docker-compose, Node.js/npm
 2) Clone repo
 ```
-git clone https://github.com/houseofbits/solar-system-display
+git clone https://github.com/onurozkn/solar-system-display
 ```
 
 3) Install dependencies
@@ -42,14 +40,55 @@ npm run build
 docker-compose up -d
 ```
 
-4) Enjoy some of the finest planets found in our galaxy:  http://docker.local:81/
+4) Enjoy some of the finest planets found in our galaxy:  http://localhost:81
 
-**Dependencies**
-- Babylon.js
-- React
 
-[https://github.com/houseofbits/solar-system-display](https://github.com/houseofbits/solar-system-display)
+-----------------------------------------------------------------------------------
 
-Krists Pudzens©2020
+## [Letonya Doğa Tarihi Müzesi](https://www.dabasmuzejs.gov.lv/) - Solar System
 
-kpudzens@gmail.com
+1280x800 dokunmatik ekranlı cihazlar için web uygulaması. Güneş sistemimizin animasyonlu temsili ve her gezegenin kısa açıklaması ile tamamlayıcı Güneş sistemi vitrini.
+
+![Screenshot](https://raw.githubusercontent.com/onurozkn/solar-system-display/blob/master/screenshot.png)
+
+
+
+Bu proje nasıl kurulur ve build edilir:
+
+**Geliştirme ortamını kurun**
+
+
+1) Install docker, docker-compose, Node.js/npm
+2) Clone repo
+```
+git clone https://github.com/onurozkn/solar-system-display
+```
+
+3) Install dependencies
+```
+npm install
+```
+
+4) Run dev server
+```
+npm run serve
+```
+
+**Üretim sürümünü oluşturun ve test edin**
+
+1) Run build
+```
+npm run build
+```
+
+
+2) Docker container başlatma:
+```
+docker-compose up -d
+```
+
+3) Galaksimizde bulunan en iyi gezegenlerden bazılarının keyfini çıkarın:  http://localhost:81
+
+
+
+Onur Özkan

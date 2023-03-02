@@ -12,7 +12,7 @@ class Language extends React.Component {
     };
     render() {
         return <div className={Style.languageFrame}>
-            <div className={[Style.flag, Style.lv, (this.props.language == 'lv'?Style.active:'')].join(' ')} onClick={() => this.click('lv')}></div>
+            <div className={[Style.flag, Style.tr, (this.props.language == 'tr'?Style.active:'')].join(' ')} onClick={() => this.click('tr')}></div>
             <div className={[Style.flag, Style.en, (this.props.language == 'en'?Style.active:'')].join(' ')} onClick={() => this.click('en')}></div>
             <div className={[Style.flag, Style.ru, (this.props.language == 'ru'?Style.active:'')].join(' ')} onClick={() => this.click('ru')}></div>
         </div>;

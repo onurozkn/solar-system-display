@@ -1,0 +1,113 @@
+{
+    "common":{
+        "distance":"Güneşten ortalama uzaklık",
+        "period":"Rotasyon süresi",
+        "radius":"Ortalama yarıçap",
+        "mass":"Ağırlık",
+        "density":"Yoğunluk",
+        "satelites":"Uydu sayısı",
+        "rings":"Halkalar",
+        "all":"Güneş Sistemi"
+    },
+    "planets":{
+        "sun":{
+            "title":"Güneş",
+            "description":"Güneş bir yıldızdır - herhangi bir gezegenden daha büyük, devasa, parlak bir plazma küresi. Ana ısı ve ışık kaynağımızdır. <br/><br/>Güneş esas olarak hidrojen ve helyumdan oluşur. Hidrojenin helyuma dönüştürüldüğü termonükleer reaksiyonlar onun enerji kaynağıdır. Çok sıcaktır - güneşin yüzey sıcaklığı yaklaşık +6000° C'dir, ancak merkezinde sıcaklık 15 milyon° C'ye ulaşır. <br/><br/>Güneş boş değildir. İç bölgelere ve bir atmosfere bölünmüştür. İç bölgeler çekirdek, ışınımsal bölge ve konvektif bölgedir. Atmosfer üç katmandan oluşur - fotosfer, kromosfer ve korona. <br/><br/>Güneşin görünür yüzeyi, ışık ile ultraviyole ve kızılötesi radyasyonun yayıldığı fotosfer tarafından oluşturulur. Güneş'in yüzeyinde gözle görülür şekilde daha koyu olan noktalarda sıcaklık daha düşüktür.",
+            "distance":null,
+            "period":"25,05 gün",
+            "radius":"695,508 km",
+            "mass":"1,989 · 10<sup>30</sup> kg",
+            "density":"1,409 g/cm<sup>3</sup>",
+            "satelites":null,
+            "rings":"Hayır"                                 
+        },        
+        "mercury":{
+            "title":"Merkür",
+            "description":"Merkür, Güneş'e en yakın ve en küçük gezegendir. Hızlı hareket etmesi nedeniyle adını Roma ticaret tanrısı ve tanrıların habercisi <i>Merkür</i>'den almıştır. <br/><br/>Merkür'ün, gün boyunca biriken ısının gece uzaya kaçmasını önleyecek neredeyse hiç atmosferi yoktur. Gündüzleri gezegenin yüzeyi +430 °C'ye kadar ısınırken, geceleri -180 °C'ye kadar soğur. <br/><br/>Merkür'ün yüzeyi birçok kraterle kaplıdır.",
+            "distance":"57,909,227 km",
+            "period":"58,646 gün",
+            "radius":"2440 km",
+            "mass":"3,301 · 1023<sup>23</sup> kg",
+            "density":"5,43 g/cm<sup>3</sup>",
+            "satelites":"0",
+            "rings":"Hayır"                                 
+        },
+        "venus":{
+            "title":"Venüs",
+            "description":"Venüs güneş sistemindeki en sıcak gezegendir. Görünüşü nedeniyle gezegen, aşk ve güzellik tanrıçası <i>Venüs</i>'ün adını almıştır. 39 milyon kilometreye kadar yaklaşabilen Dünya'ya en yakın gezegendir. <br/><br/>Gezegenin yüzeyindeki sıcaklık +470 °C'ye ulaşıyor. Venüs, esas olarak karbondioksit, kükürt ve su buharından oluşan yoğun bir atmosfere sahiptir. Yoğun bir atmosfer, yüksek atmosfer basıncı oluşturur. <br/><br/>Gezegen ters yönde dönüyor. Venüs, aktif olabilecek volkanların yanı sıra kraterler, vadiler ve dağlık alanların olduğu birçok geniş ovaya sahiptir.",
+            "distance":"108,209,475 km",
+            "period":"–243,018 gün",
+            "radius":"6052 km",
+            "mass":"4,867 ·10<sup>24</sup> kg",
+            "density":"5,24 g/cm<sup>3</sup>",
+            "satelites":"0",
+            "rings":"Hayır"                                 
+        },
+        "earth":{
+            "title":"Dünya",
+            "description":"Dünya, 4.6 milyar yıl önce ortaya çıkan güneş sisteminin üçüncü gezegenidir. kozmik toz ve gazların sıkışması nedeniyle yıllar. <br/><br/>Dünya, güneş sisteminde bol su bulunan tek gezegendir. Dünya yüzeyinin 2/3'ünden fazlasını kaplar. Gezegenin atmosferi, esas olarak nitrojen ve oksijenden oluşan orta derecede yoğun ve nispeten şeffaftır. Üzerinde yaşam olduğu için eşsiz bir gezegendir. <br/><br/>Dünya yüzeyindeki sıcaklık -88 °C ile +58 °C arasında, ortalama +15 °C. Dünyanın elektrik, manyetik, yerçekimi ve jeotermal alanları vardır. <br/><br/>Dünya'nın bir doğal arkadaşı vardır - Ay.",
+            "distance":"149,598,262 km",
+            "period":"0,9973 gün",
+            "radius":"6371 km",
+            "mass":"5,972 · 10<sup>24</sup> kg",
+            "density":"5,51 g/cm<sup>3</sup>",
+            "satelites":"1",
+            "rings":"Hayır"                                 
+        }, 
+        "mars":{
+            "title":"Mars",
+            "description":"Mars, Dünya'ya en çok benzeyen gezegendir. Kırmızımsı kayalardan oluşur. Kırmızı renginden dolayı eski gökbilimciler ona Roma'nın savaş tanrısı <i>Mars</i>'ın adını verdiler. <br/><br/>Mars, çoğunlukla karbondioksitten oluşan şeffaf, seyreltilmiş bir atmosfere sahiptir. Mars yüzeyindeki atmosferik basınç, 40 km yükseklikte Dünya'daki ile aynıdır. <br/><br/>Gezegenin kutupları, buz ve donmuş karbondioksitten oluşan kutup başlıkları ile kaplıdır. Mars yüzeyindeki sıcaklık -125 °C ile +24 °C arasında değişmekte olup, ortalama -60 °C'dir. <br/><br/>Mars geniş, rüzgarlı paslı çöllere ve yüksek volkanik sırtlara sahiptir. Gezegende Güneş Sistemindeki bilinen en büyük dağ var - Olympus (yükseklik 26 km, ayak çapı 600 km).",
+            "distance":"227,943,824 km",
+            "period":"1,026 gün",
+            "radius":"3390 km",
+            "mass":"6,4169 · 10<sup>23</sup> kg",
+            "density":"3,93 g/cm<sup>3</sup>",
+            "satelites":"2",
+            "rings":"Hayır"                                 
+        },              
+        "jupiter":{
+            "title":"Jüpiter",
+            "description":"Jüpiter, güneş sistemindeki en büyük gezegendir. Etkileyici boyutundan dolayı Roma tanrılarının sert hükümdarı <i>Jüpiter</i>'in adı verilmiştir. <br/><br/>Jüpiter kendi ekseni etrafında çok hızlı döner. Gezegenin kalın ve yoğun bir atmosferi var. Kimyasal olarak yıldızlara benzer. Jüpiter esas olarak helyum ve hidrojenden oluşur. Hayyr gezegeninin katı yüzeyi yoktur. <br/><br/>Jüpiter ince ve saydam bir halkaya sahiptir. Jüpiter'in bulut örtüsü seviyesindeki sıcaklık -130 °C'dir. <br/><br/>Jüpiter'in uydularından biri olan Ganymede, güneş sistemindeki en büyük uydudur. Merkür gezegeninden daha büyüktür.",
+            "distance":"778,340,821 km",
+            "period":"0,4135 gün",
+            "radius":"69 911 km",
+            "mass":"1,9 · 10<sup>27</sup> kg",
+            "density":"1,33 g/cm<sup>3</sup>",
+            "satelites":"79",
+            "rings":"Evet"                                 
+        }, 
+        "saturn":{
+            "title":"Saturn",
+            "description":"Satürn, güneş sistemindeki en büyük ikinci gezegendir. Antik çağda bilinen son gezegen olduğundan, adını antik Roma'nın tarım hamisi <i>Satürn</i>'den almıştır. <br/><br/>Kendine özgü halkasıyla diğer gezegenler arasında öne çıkıyor. Halka sistemi çok karmaşıktır. Satürn'ün halkası geniş ama çok incedir. Halkaların çoğu, çeşitli boyutlarda buz parçacıklarından oluşur. <br/><br/>Satürn, fiziksel özellikleri bakımından Jüpiter'e benzer. Bulut yüzey sıcaklığı -140 °C. Satürn kendi ekseni etrafında çok hızlı döner. <br/><br/>Satürn'ün uydusu Titan, güneş sisteminde yoğun bir atmosfere sahip olan tek uydudur.",
+            "distance":"1,426,666,422 km",
+            "period":"0,444 gün",
+            "radius":"58 232 km",
+            "mass":"5,68 · 10<sup>26</sup> kg",
+            "density":"0,687 g/cm<sup>3</sup>",
+            "satelites":"63",
+            "rings":"Evet"                                 
+        },      
+        "uranus":{
+            "title":"Uranüs",
+            "description":"Uranüs, Güneş Sistemindeki üçüncü en büyük gezegendir. Gezegen, adını Yunan tanrılarının atalarının babası ve cennetin kişileştirilmesi olan Uranüs'ten almıştır. Uranüs'ün alışılmadık bir şekilde yerleştirilmiş bir dönme ekseni vardır - neredeyse yataydır, bu nedenle gezegen kendi yörüngesinde yuvarlanır gibi görünür. Gezegen ayrıca kendi ekseni etrafında ters yönde döner. <br/><br/>Uranyum, metan buz kristallerinden oluşan yoğun, homojen bir sisle kaplıdır. Metan, Uranüs'e mavi rengini verir. -yeşil renk.Yüzey sıcaklığı -210°C.<br/><br/>Gezegen 13 halka ile çevrilidir.Bunlar çok dardır ve Dünya'dan görülmesi zordur.",
+            "distance":"2,870,658,186 km",
+            "period":"–0,718 gün",
+            "radius":"25 362 km",
+            "mass":"8,68 · 10<sup>25</sup> kg",
+            "density":"1,270 g/cm<sup>3</sup>",
+            "satelites":"27",
+            "rings":"Evet"                                 
+        },  
+        "neptune":{
+            "title":"Neptün",
+            "description":"Neptün, güneş sistemindeki dördüncü en büyük gezegendir. Adını Roma deniz tanrısı <i>Neptün</i>'den almıştır. <br/><br/>Neptün, fiziksel özellikleri bakımından Uranüs'e benzer. Esas olarak buzdan oluşur. Yüzey sıcaklığı -195 °C'dir. <br/><br/>Neptün'ün atmosferi hidrojen, helyum, metan ve amonyaktan oluşur. Atmosferdeki gazlar ona mavi bir renk verir. <br/><br/>Gezegenin çekirdeği sıcaktır, bu ısı gezegenin atmosferine de ulaşarak bulutlara, kuvvetli rüzgarlara ve değişken hava koşullarına neden olur. Gezegenin Dünya'dan görülmesi zor olan altı halkası vardır. <br/><br/>Neptün'ün uydularından biri olan Triton, gezegenin yörüngesinde kendi dönüş yönünün tersine dönüyor.",
+            "distance":"4,498,396,441 km",
+            "period":"0,671 gün",
+            "radius":"24 622 km",
+            "mass":"1,02 · 10<sup>26</sup> kg",
+            "density":"1,368 g/cm<sup>3</sup>",
+            "satelites":"14",
+            "rings":"Evet"                                 
+        }                 
+    }
+}
