@@ -49,9 +49,6 @@ docker-compose up -d
 
 1280x800 dokunmatik ekranlı cihazlar için web uygulaması. Güneş sistemimizin animasyonlu temsili ve her gezegenin kısa açıklaması ile tamamlayıcı Güneş sistemi vitrini.
 
-![Screenshot](https://raw.githubusercontent.com/onurozkn/solar-system-display/blob/master/screenshot.png)
-
-
 
 Bu proje nasıl kurulur ve build edilir:
 
