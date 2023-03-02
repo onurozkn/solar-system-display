@@ -2,8 +2,7 @@
 
 1280x800 dokunmatik ekranlı cihazlar için web uygulaması. Güneş sistemimizin animasyonlu temsili ve her gezegenin kısa açıklaması ile tamamlayıcı Güneş sistemi vitrini.
 
-![alt text](https://github.com/onurozkn/solar-system-display/blob/master/screenshot.png)
-
+![Screenshot](screenshot.png)
 
 
 Bu proje nasıl kurulur ve build edilir:
