@@ -2,7 +2,8 @@
 
 Web application for 1280x800 touchscreen device. Complementing Solar system showcase with animated representation of our solar system and short description of each planet.
 
-![Screenshot](https://raw.githubusercontent.com/onurozkn/solar-system-display/blob/master/screenshot.png)
+![My Image](./screenshot.png)
+
 
 How to set up and build this project:
 
