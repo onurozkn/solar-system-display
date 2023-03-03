@@ -2,7 +2,7 @@
 
 1280x800 dokunmatik ekranlı cihazlar için web uygulaması. Güneş sistemimizin animasyonlu temsili ve her gezegenin kısa açıklaması ile tamamlayıcı Güneş sistemi vitrini.
 
-![My Image](screenshot.png)
+![My Image](./screenshot.png)
 
 
 Bu proje nasıl kurulur ve build edilir:
